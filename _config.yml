@@ -1,0 +1,647 @@
+
+####################################
+######     Global start     ######
+####################################
+name                : 'Ducor'
+title               : 'Ailng - Creative Consulting & Business Agency HTML Template'
+email               : 'ducorteam@gmail.com'
+address             : '2216 Park Avenue, California 95630 '
+phone               : 0185612012035
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl             : "" # the subpath of your site, e.g. /blog
+url                 : "" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+locale              : "en_US"
+logo                : assets/img/logo/logo.png
+logo2               : assets/img/logo/logo.png
+
+author:
+  name: ducor
+  
+# paginate
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:slug/
+  pages:
+    output: true
+    permalink: /:collection/:slug/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+  # _pages 
+  - scope:
+      path: "" # we can not defile path /blog/index.html for pagination
+      type: pages
+    values:
+      layout: page
+
+
+timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+#
+
+disqus_shortname: anvodstudio-demo
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-archives
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-archives
+
+# jekyll archive 
+jekyll-archives:
+  enabled: 
+    - tags
+    - categories
+  layouts:
+    category: category-archive
+    tag: tag-archive
+  permalinks:
+    tag: '/tags/:name/'
+    category: '/categories/:name/'
+
+####################################
+######      Global end      ######
+####################################
+getform_id: 'e5e1f635-da5d-4fc9-9a47-2e10735146f5' # active contact https://getform.io/f/1234
+
+
+# SUBSCRIVE FORM 
+mailchimp:
+  user-id: 'c4e151b63d84a9bac731252a2'
+  list-id: 'ca518aaa14'
+  username: 'jekylltemplate.us5'
+
+####################################
+######        Copyright       ######
+####################################
+copyright_text: Copyright © 2019 All rights reserved to
+company_url: '#'
+
+
+# SEO Related
+google_site_verification : ''
+bing_site_verification   : ''
+yandex_site_verification : ''
+naver_site_verification  : ''
+
+# Social Sharing
+twitter:
+  username               : ''
+facebook:
+  username               : ''
+  app_id                 : ''
+  publisher              : ''
+og_image                 :  '/assets/img/og_image.jpg' # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : '' # Person or Organization (defaults to Person)
+  name                   : '' # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : ''
+    anonymize_ip         : true # true, false (default)
+
+##########################################################################
+################################# menus  #################################
+##########################################################################
+menus:
+  - name: Home
+    url: '#'
+    children: 
+      - name: Home version 1
+        url:  '/'
+      - name: Home version 2
+        url:  '/index-2/'
+  - name: About
+    url: /about/
+  - name: Pages
+    url: '#'
+    children: 
+    - name: Service
+      url:  '/service/'
+    - name: 'Our Projects'
+      url: '/work/'
+    - name: 'Our Team'
+      url: '/team/'
+    - name: '404'
+      url: '/404.html'
+  - name: Blog
+    url: '/blog/'
+  - name: Contact
+    url: /contact/
+
+##########################################################################
+######################## socials profile #################################
+##########################################################################
+socials:
+  - url: '#'
+    icon: 'fab fa-facebook-f'
+  - url: '#'
+    icon: 'fab fa-instagram'
+  - url: '#'
+    icon: 'fab fa-twitter'
+  - url: '#'
+    icon: 'fab fa-youtube'
+
+##########################################################################
+############################ about #######################################
+##########################################################################
+about:
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, seieiusmoed
+    dui too consecteture elite more.According to ipsum dolor seat ameat consecteture
+    elite.
+  image: assets/img/about/about-1.png
+  subtitle: A helping hand agency <br> for Business
+  title: About Agency
+about2:
+  bg_image: assets/img/about/about-3.png
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, seieiusmoed
+    dui too consecteture elite more.According to ipsum dolor seat ameat consecteture
+    elite.
+  list: <li> <i class="icofont-check-circled"></i> Great Support Team alltime Active
+    </li> <li> <i class="icofont-check-circled"></i> Marketing Research Team </li>
+    <li> <i class="icofont-check-circled"></i> Business Analysis &amp; Marketing </li>
+  subtitle: Agency Features
+  title: A helping hand agency <br> for Business
+  work_link: '/work/'
+  work_text: Get Started <i class="icofont-long-arrow-right"></i>
+
+##########################################################################
+############################ blog #######################################
+##########################################################################
+
+blog:
+  intro: See our Latest &amp; Popular Tips &amp; Tricks <br> from our Experts
+  title: Blog
+
+##########################################################################
+############################ footer ######################################
+##########################################################################
+footer:
+  address: '<li>Address: House 00, Road No : 01, Street address, ABC</li> <li>Phone:
+    <a href="#">+0 123-456-7890</a> </li> <li>Email: <a href="#">info@example.com</a>
+    </li>'
+  bg_image: assets/img/footer/footer-bg.png
+  copyright: "© 2020 All Right Reserved, Ailng"
+  description: This is Photoshop's version of LoreiIpsum. Aenean sollicitudin,
+  logo: assets/img/logo/logo.png
+footer2:
+  address: '<li>Address: House 00, Road No : 01, Street address, ABC</li> <li>Phone:
+    <a href="#">+0 123-456-7890</a> </li> <li>Email: <a href="#">info@example.com</a>
+    </li>'
+  copyright: "© 2020 All Right Reserved, Ailng"
+  helpfullink: Helpful Links
+  logo: assets/img/logo/logo.png
+  quicklink: Quick Links
+  description: 'Maboriosam in a nesciung egemagnaeli montant odiy. '
+
+########################################################################
+##########################  worksItems #################################
+########################################################################
+
+worksItems:
+  - image: '/assets/img/blog/1.jpg'
+    title: ' Business / Business Analysis '
+    subtitle: 'Business Ananlysis & Strategy'
+  - image: '/assets/img/blog/2.jpg'
+    title: ' Business / Business Analysis '
+    subtitle: 'Business Ananlysis & Strategy'
+  - image: '/assets/img/blog/3.jpg'
+    title: ' Business / Business Analysis '
+    subtitle: 'Business Ananlysis & Strategy'
+  - image: '/assets/img/blog/1.jpg'
+    title: ' Business / Business Analysis '
+    subtitle: 'Business Ananlysis & Strategy'
+  - image: '/assets/img/blog/2.jpg'
+    title: ' Business / Business Analysis '
+    subtitle: 'Business Ananlysis & Strategy'
+  - image: '/assets/img/blog/3.jpg'
+    title: ' Business / Business Analysis '
+    subtitle: 'Business Ananlysis & Strategy'
+
+
+##########################################################################
+######################## hero ############################################
+##########################################################################
+hero1:
+  intro: Business Consulting Agency
+  service_link: service.html
+  service_text: Explore More <i class="icofont-long-arrow-right"></i>
+  subtitle: Lorem ipsum dolor consecteture elite we’re a creative digitalyour business
+    growing we’re a creative digitalyour business growing up.
+  title: Creative &amp; Inteligents People help <br> Growing Business.
+  title_link: '/work/'
+  title_text: Explore More <i class="icofont-long-arrow-right"></i>
+  video_link: https://www.youtube.com/watch?v=ku6dEtynrRI
+  video_text: <i class="fas fa-play"></i> <span class="how-txt">How we work</span>
+hero2:
+  intro: We’re Help Growing Your Business.
+  right_img: assets/img/header/hdr-3.png
+  service_link: service.html
+  service_text: Explore More <i class="icofont-long-arrow-right"></i>
+  subtitle: Lorem ipsum dolor consecteture elite we’re a creative digital your business
+    growing up.
+  video_link: https://www.youtube.com/watch?v=ku6dEtynrRI
+  video_text: <i class="fas fa-play"></i> <span class="how-txt">How we work</span>
+  image: assets/img/work/6.png
+
+
+##########################################################################
+######################## promo ############################################
+##########################################################################
+promo:
+  contact_link: contact.html
+  contact_text: Contact Us
+  subtitle: Contact Us
+  title: If You Have any Projects or Task for Us. Please Contact Us
+
+##########################################################################
+######################## subscribe #######################################
+##########################################################################
+subscribe:
+  description: To get Our Weekly &amp; Monthly News. Subscribe Newsletter.
+  image: assets/img/subscribe/sub-right.png
+  title: Newsletter
+
+##########################################################################
+######################## whatwedo #######################################
+##########################################################################
+whatwedo:
+  contact_link: /contact/
+  contact_text: Contact Us
+  subtitle: What We Do
+  title: We Providing Some Special Services <br> To our Clients.
+
+##########################################################################
+######################## features #######################################
+##########################################################################
+features:
+- image: assets/img/icons/man.png
+  type: Great Team
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+- image: assets/img/icons/checked.png
+  type: Trusted Agency
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+- image: assets/img/icons/rating.png
+  type: Top Rated Agency
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+- image: assets/img/icons/consult.png
+  type: Support Alltime
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+
+features2:
+- image: assets/img/icons/man.png
+  type: Great Team
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+- image: assets/img/icons/checked.png
+  type: Trusted Agency
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+- image: assets/img/icons/rating.png
+  type: Top Rated Agency
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+- image: assets/img/icons/consult.png
+  type: Support Alltime
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+
+
+##########################################################################
+############################ facts #######################################
+##########################################################################
+facts:
+- image: assets/img/icons/1.png
+  counter: '2382'
+  title: Project Completed
+- image: assets/img/icons/2.png
+  counter: '1382'
+  title: Team Members
+- image: assets/img/icons/feedback.png
+  counter: '2382'
+  title: Happy Clients
+
+##########################################################################
+############################ wedo #######################################
+##########################################################################
+wedo:
+- image: assets/img/icons/3.png
+  title: Business Analysis
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+  service_text: Explore Service
+  service_link: '#'
+- image: assets/img/icons/4.png
+  title: Financial Planning
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+  service_text: Explore Service
+  service_link: '#'
+- image: assets/img/icons/5.png
+  title: Digital Marketing
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+  service_text: Explore Service
+  service_link: '#'
+
+##########################################################################
+######################## work #######################################
+##########################################################################
+work:
+  description: Recently done case study by our <br> inteligents team
+  more_link: /work/
+  more_text: Explore More <i class="icofont-long-arrow-right"></i>
+  title: Protfolio
+works:
+- image: assets/img/work/1.png
+- image: assets/img/work/2.png
+- image: assets/img/work/3.png
+
+##########################################################################
+######################## reviews #######################################
+##########################################################################
+reviews:
+- quotes: Lorem Ipsum dolor seat ameat dui too consecteture more be elite. According
+    the agency is best for growing your business what your A best consulting business
+    agency.
+  author: Atardam Steve
+  status: Founder
+- quotes: Lorem Ipsum dolor seat ameat dui too consecteture more be elite. According
+    the agency is best for growing your business what your A best consulting business
+    agency.
+  author: Atardam Steve
+  status: Founder
+
+####################################################################
+######################## feature ###################################
+####################################################################
+feature_service:
+  title: ' Recently Some Cases Done by Our <br> Agency Team'
+  subtitle: 'Case Study'
+
+feature_services:
+  - name: Business Analysis
+    image: '/assets/img/work/7.jpg'
+    description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+      elite.
+    service_text: Explore Service
+    service_link: '#'
+  - name: Financial Planning
+    image: '/assets/img/work/8.jpg'
+    description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+      elite.
+    service_text: Explore Service
+    service_link: '#'
+  - name: Business Research
+    image: '/assets/img/work/9.jpg'
+    description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+      elite.
+    service_text: Explore Service
+    service_link: '#'
+
+####################################################################
+######################## feedbacks #################################
+####################################################################
+feedbacks:
+- image: assets/img/review/review-pic.png
+  description: Lorem Ipsum dolor seat ameat dui too consecteture more be elite. According
+    the agency is best for growing your business what your A best consulting business
+    agency.
+  author: Atardam Steve
+  status: Founder
+- image: assets/img/review/review-pic.png
+  description: Lorem Ipsum dolor seat ameat dui too consecteture more be elite. According
+    the agency is best for growing your business what your A best consulting business
+    agency.
+  author: Atardam Steve
+  status: Founder
+- image: assets/img/review/review-pic.png
+  description: Lorem Ipsum dolor seat ameat dui too consecteture more be elite. According
+    the agency is best for growing your business what your A best consulting business
+    agency.
+  author: Atardam Steve
+  status: Founder
+
+####################################################################
+######################## faq ######################################
+####################################################################
+
+faq:
+  description: Need anything to ask check <br> Asked Question
+  image: assets/img/faq/fag-bg.png
+  title: Questions &amp; Answer
+faq2:
+  description: Lorem ipsum dolor seat ameat dui too consecteture elite more occopassional
+    works.A consulting agency are highly trying to them to their clients.
+  image: assets/img/review/review-pic-2.jpg
+  subtitle: If You need Any Other Info Check Our FAQ,s
+  title: Question &amp; Answer
+
+faqs:
+- title: 1. Think ahead &amp; boost your business?
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
+    is exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit.
+- title: 2. How our experts consulter work?
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
+    is exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit.
+- title: 3. What is the best tips for growth your business?
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
+    is exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit.
+- title: 4. How to improved your business?
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
+    is exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit.
+- title: 5. How to improved your business?
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
+    is exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit.
+
+faqs2:
+- title: 1. Think ahead &amp; boost your business?
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
+    is exercitation ullamco laboris
+- title: 2. How our experts consulter work?
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
+    is exercitation ullamco laboris.
+- title: 3. What is the best tips for growth your business?
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
+    is exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit.
+- title: 4. How to improved your business?
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
+    is exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit.
+- title: 5. How to improved your business?
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
+    is exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit.
+
+####################################################################
+######################## case ######################################
+####################################################################
+service:
+  subtitle: Services
+  title: We Providing Some Special Services <br> To Our Clients.
+singlearea:
+  image: assets/img/subscribe/sub-right.png
+  subtitle: Newsletter
+  title: To get Our Weekly &amp; Monthly News Subscribe Newsletter.
+
+case:
+  subtitle: Recently Some Cases Done by Our <br> Agency Team
+  title: Case Study
+  work_link: '/work/'
+  work_text: Explore More <i class="icofont-long-arrow-right"></i>
+cases:
+- image: assets/img/work/7.jpg
+  title: Business / Business Analysis
+  subtitle: Business Ananlysis &amp; Strategy
+- image: assets/img/work/8.jpg
+  title: Business / Business Analysis
+  subtitle: Business Ananlysis &amp; Strategy
+- image: assets/img/work/9.jpg
+  title: Business / Business Analysis
+  subtitle: Business Ananlysis &amp; Strategy
+whatarea1:
+- image: assets/img/icons/3.png
+  title: Business Analysis
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+  service_text: Explore Service
+  service_link: '#'
+- image: assets/img/icons/4.png
+  title: Financial Planning
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+  service_text: Explore Service
+  service_link: '#'
+- image: assets/img/icons/5.png
+  title: Digital Marketing
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+  service_text: Explore Service
+  service_link: '#'
+- image: assets/img/icons/6.png
+  title: Business Consulting
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+  service_text: Explore Service
+  service_link: '#'
+- image: assets/img/icons/7.png
+  title: Creative Design
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+  service_text: Explore Service
+  service_link: '#'
+- image: assets/img/icons/8.png
+  title: Email Marketing
+  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+    elite.
+  service_text: Explore Service
+  service_link: '#'
+
+
+####################################################################
+######################## Team ######################################
+####################################################################
+teams:
+- image: assets/img/team/1.jpg
+  username: Emiley Philifs
+  profession: Digital marketer
+- image: assets/img/team/2.jpg
+  username: Emiley Philifs
+  profession: Digital marketer
+- image: assets/img/team/3.jpg
+  username: Emiley Philifs
+  profession: Digital marketer
+- image: assets/img/team/4.jpg
+  username: Emiley Philifs
+  profession: Digital marketer
+- image: assets/img/team/5.jpg
+  username: Emiley Philifs
+  profession: Digital marketer
+- image: assets/img/team/6.jpg
+  username: Emiley Philifs
+  profession: Digital marketer
+- image: assets/img/team/7.jpg
+  username: Emiley Philifs
+  profession: Digital marketer
+- image: assets/img/team/8.jpg
+  username: Emiley Philifs
+  profession: Digital marketer
