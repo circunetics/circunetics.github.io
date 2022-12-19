@@ -175,11 +175,11 @@ analytics:
 menus:
   - name: Home
     url: '#'
-    children: 
-      - name: Home version 1
-        url:  '/'
-      - name: Home version 2
-        url:  '/index-2/'
+#    children:
+#      - name: Home version 1
+#        url:  '/'
+#      - name: Home version 2
+#        url:  '/index-2/'
   - name: About
     url: /about/
   - name: Pages
@@ -193,8 +193,8 @@ menus:
       url: '/team/'
     - name: '404'
       url: '/404.html'
-  - name: Blog
-    url: '/blog/'
+#  - name: Blog
+#    url: '/blog/'
   - name: Contact
     url: /contact/
 
