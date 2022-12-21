@@ -1,7 +1,9 @@
 _site
+_html
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
 Gemfile.lock
 _site/
+_html/
