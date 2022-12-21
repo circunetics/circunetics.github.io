@@ -183,7 +183,7 @@ menus:
     - name: Service
       url:  '/service/'
     - name: 'Our Projects'
-      url: '/work/'
+      url: '/work.html'
     - name: 'Our Team'
       url: '/team/'
     - name: '404'
