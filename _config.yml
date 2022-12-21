@@ -181,11 +181,11 @@ menus:
     url: '#'
     children: 
     - name: Service
-      url:  '/service/'
+      url:  '/service.html'
     - name: 'Our Projects'
       url: '/work.html'
     - name: 'Our Team'
-      url: '/team/'
+      url: '/team.html'
     - name: '404'
       url: '/404.html'
   - name: Blog
