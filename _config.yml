@@ -392,17 +392,17 @@ facts:
 ##########################################################################
 
 wedo:
-- image: assets/img/icons/business-analysis.png
+- image: assets/img/icons/3.png
   title: Sustainable Finance Strategy
   description: Our experts help institutions develop sustainable finance strategies that align with their goals and values.
   service_text: Learn More
   service_link: '/sustainable-finance-strategy/'
-- image: assets/img/icons/financial-planning.png
+- image: assets/img/icons/4.png
   title: ESG Integration
   description: We assist institutions in integrating Environmental, Social, and Governance (ESG) considerations into their investment processes.
   service_text: Learn More
   service_link: '/esg-integration/'
-- image: assets/img/icons/impact-investing.png
+- image: assets/img/icons/5.png
   title: Impact Investing
   description: We advise institutions on impact investing opportunities and help them design and execute impact investment portfolios.
   service_text: Learn More
