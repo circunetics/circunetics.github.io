@@ -14,8 +14,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl             : "" # the subpath of your site, e.g. /blog
 url                 : "" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 locale              : "en_US"
-logo                : assets/img/logo/logo-no-background.png
-logo2               : assets/img/logo/logo-no-background.png
+logo                : assets/img/logo/logo-no-background (1).png
+logo2               : assets/img/logo/logo-no-background (1).png
 
 author:
   name: ducor
@@ -247,14 +247,14 @@ footer:
   bg_image: assets/img/footer/footer-bg.png
   copyright: "© 2020 All Right Reserved, Ailng"
   description: This is Photoshop's version of LoreiIpsum. Aenean sollicitudin,
-  logo: assets/img/logo/logo-no-background.png
+  logo: assets/img/logo/logo-no-background (1).png
 footer2:
   address: '<li>Address: House 00, Road No : 01, Street address, ABC</li> <li>Phone:
     <a href="#">+0 123-456-7890</a> </li> <li>Email: <a href="#">info@example.com</a>
     </li>'
   copyright: "© 2020 All Right Reserved, Ailng"
   helpfullink: Helpful Links
-  logo: assets/img/logo/logo-no-background.png
+  logo: assets/img/logo/logo-no-background (1).png
   quicklink: Quick Links
   description: 'Maboriosam in a nesciung egemagnaeli montant odiy. '
 
