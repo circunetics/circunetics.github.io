@@ -348,10 +348,10 @@ features:
 - image: assets/img/icons/checked.png
   type: In-depth Analysis
   description: We perform thorough analysis of clients current operations and investments to identify areas for improvement and provide actionable recommendations for integrating sustainability.
-- image: assets/img/icons/strategy.png
+- image: assets/img/icons/rating.png
   type: Tailored Strategies
   description: We work with clients to develop customized sustainable finance strategies that align with their unique goals and objectives, taking into account their investment portfolio, risk tolerance, and impact objectives.
-- image: assets/img/icons/implementation.png
+- image: assets/img/icons/consult.png
   type: Effective Implementation
   description: Our team provides support throughout the implementation process, ensuring that clients have the resources and expertise needed to effectively integrate sustainable finance into their operations.
 
@@ -362,10 +362,10 @@ features2:
 - image: assets/img/icons/checked.png
   type: Compliance Assistance
   description: We assist clients in navigating the complex regulatory landscape around sustainable finance, ensuring that their investments and operations are in compliance with relevant laws and regulations.
-- image: assets/img/icons/engagement.png
+- image: assets/img/icons/rating.png
   type: Stakeholder Engagement
   description: We engage with clients stakeholders, including investors, customers, and employees, to communicate the importance of sustainable finance and build support for sustainable finance initiatives.
-- image: assets/img/icons/innovation.png
+- image: assets/img/icons/consult.png
   type: Continuous Improvement
   description: Our team is committed to continuous improvement, staying up-to-date on the latest developments in sustainable finance and incorporating new best practices into our clients' operations.
 
