@@ -390,26 +390,25 @@ facts:
 ##########################################################################
 ############################ wedo #######################################
 ##########################################################################
-wedo:
-- image: assets/img/icons/3.png
-  title: Business Analysis
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
-  service_text: Explore Service
-  service_link: '#'
-- image: assets/img/icons/4.png
-  title: Financial Planning
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
-  service_text: Explore Service
-  service_link: '#'
-- image: assets/img/icons/5.png
-  title: Digital Marketing
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
-  service_text: Explore Service
-  service_link: '#'
 
+wedo:
+- image: assets/img/icons/business-analysis.png
+  title: Sustainable Finance Strategy
+  description: Our experts help institutions develop sustainable finance strategies that align with their goals and values.
+  service_text: Learn More
+  service_link: '/sustainable-finance-strategy/'
+- image: assets/img/icons/financial-planning.png
+  title: ESG Integration
+  description: We assist institutions in integrating Environmental, Social, and Governance (ESG) considerations into their investment processes.
+  service_text: Learn More
+  service_link: '/esg-integration/'
+- image: assets/img/icons/impact-investing.png
+  title: Impact Investing
+  description: We advise institutions on impact investing opportunities and help them design and execute impact investment portfolios.
+  service_text: Learn More
+  service_link: '/impact-investing/'
+ 
+  
 ##########################################################################
 ######################## work #######################################
 ##########################################################################
