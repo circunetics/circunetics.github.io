@@ -327,14 +327,16 @@ subscribe:
   image: assets/img/subscribe/sub-right.png
   title: Newsletter
 
+
+
 ##########################################################################
 ######################## whatwedo #######################################
 ##########################################################################
 whatwedo:
   contact_link: /contact/
   contact_text: Contact Us
-  subtitle: What We Do
-  title: We Providing Some Special Services <br> To our Clients.
+  subtitle: Our Services
+  title: We Offer Expert Sustainable Finance Consulting for Institutions
 
 
 
