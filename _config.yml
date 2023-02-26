@@ -1,24 +1,22 @@
+####################################
+####### Global start    ############
+####################################
+name : 'Circunetics Research'
 
-####################################
-######     Global start     ######
-####################################
-name                : 'Ducor'
-title               : 'Ailng - Creative Consulting & Business Agency HTML Template'
-email               : 'ducorteam@gmail.com'
-address             : '2216 Park Avenue, California 95630 '
-phone               : 0185612012035
+title: 'Circunetics Research - Your Partner in Sustainable Finance Solutions'
+email : 'circunetics@gmail.com'
+address : 'Lavaterstrasse Zurich Switzerland 8002'
+phone : +41762938590
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl             : "" # the subpath of your site, e.g. /blog
-url                 : "" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
-locale              : "en_US"
-logo                : assets/img/logo/logo-no-background (1).png
-logo2               : assets/img/logo/logo-no-background (1).png
+Circunetics Research is a leading sustainable finance consulting firm providing expert support to institutions and organizations looking to adopt sustainable finance practices. Our team of experts will work with you to develop customized solutions that meet your specific needs and help you achieve your sustainability goals.
+baseurl : "" # the subpath of your site, e.g. /blog
+url : "circunetics.com" # the base hostname & protocol for your site, e.g. http://example.com
+locale : "en_US"
+logo : assets/img/logo/logo-no-background (1).png
+logo2 : assets/img/logo/logo-no-background (1).png
 
 author:
-  name: ducor
+name: Circunetics Research
   
 # paginate
 paginate: 6
