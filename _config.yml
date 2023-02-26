@@ -178,18 +178,24 @@ menus:
   - name: Home
     url: '/'
   - name: About
-    url: /about/
-  - name: Pages
-    url: '#'
-    children: 
-    - name: Service
-      url:  '/service.html'
-    - name: 'Our Projects'
-      url: '/work.html'
-    - name: 'Our Team'
-      url: '/team.html'
-    - name: '404'
-      url: '/404.html'
+    url: /about/  
+  - name: Service
+    url:  '/service.html'
+  - name: 'Our Projects'
+    url: '/work.html'
+  - name: 'Our Team'
+    url: '/team.html'
+#   - name: Pages
+#     url: '#'
+#     children: 
+#     - name: Service
+#       url:  '/service.html'
+#     - name: 'Our Projects'
+#       url: '/work.html'
+#     - name: 'Our Team'
+#       url: '/team.html'
+#     - name: '404'
+#       url: '/404.html'
   - name: Blog
     url: '/blog/'
   - name: Contact
@@ -533,66 +539,128 @@ faqs2:
 ####################################################################
 ######################## case ######################################
 ####################################################################
+# service:
+#   subtitle: Services
+#   title: We Providing Some Special Services <br> To Our Clients.
+# singlearea:
+#   image: assets/img/subscribe/sub-right.png
+#   subtitle: Newsletter
+#   title: To get Our Weekly &amp; Monthly News Subscribe Newsletter.
+
+# case:
+#   subtitle: Recently Some Cases Done by Our <br> Agency Team
+#   title: Case Study
+#   work_link: '/work/'
+#   work_text: Explore More <i class="icofont-long-arrow-right"></i>
+# cases:
+# - image: assets/img/work/7.jpg
+#   title: Business / Business Analysis
+#   subtitle: Business Ananlysis &amp; Strategy
+# - image: assets/img/work/8.jpg
+#   title: Business / Business Analysis
+#   subtitle: Business Ananlysis &amp; Strategy
+# - image: assets/img/work/9.jpg
+#   title: Business / Business Analysis
+#   subtitle: Business Ananlysis &amp; Strategy
+# whatarea1:
+# - image: assets/img/icons/3.png
+#   title: Business Analysis
+#   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+#     elite.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/4.png
+#   title: Financial Planning
+#   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+#     elite.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/5.png
+#   title: Digital Marketing
+#   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+#     elite.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/6.png
+#   title: Business Consulting
+#   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+#     elite.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/7.png
+#   title: Creative Design
+#   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+#     elite.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/8.png
+#   title: Email Marketing
+#   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+#     elite.
+#   service_text: Explore Service
+#   service_link: '#'
+
+---
 service:
-  subtitle: Services
-  title: We Providing Some Special Services <br> To Our Clients.
-singlearea:
+  subtitle: Our Services
+  title: Comprehensive Sustainable Finance Solutions for Institutions
   image: assets/img/subscribe/sub-right.png
   subtitle: Newsletter
   title: To get Our Weekly &amp; Monthly News Subscribe Newsletter.
 
+
 case:
-  subtitle: Recently Some Cases Done by Our <br> Agency Team
-  title: Case Study
+  subtitle: Case Studies
+  title: Examples of Our Successful Projects
   work_link: '/work/'
   work_text: Explore More <i class="icofont-long-arrow-right"></i>
+
 cases:
 - image: assets/img/work/7.jpg
-  title: Business / Business Analysis
-  subtitle: Business Ananlysis &amp; Strategy
+  title: Green Bond Issuance for a Renewable Energy Company
+  subtitle: Increasing Access to Capital for Clean Energy Projects
 - image: assets/img/work/8.jpg
-  title: Business / Business Analysis
-  subtitle: Business Ananlysis &amp; Strategy
-- image: assets/img/work/9.jpg
-  title: Business / Business Analysis
-  subtitle: Business Ananlysis &amp; Strategy
+  title: ESG Integration for a Large Asset Manager
+  subtitle: Improving Investment Decisions with Environmental and Social Considerations
+- image: assets//img/work/9.jpg
+  title: Impact Investing Strategy for a Philanthropic Foundation
+  subtitle: Aligning Investments with Social and Environmental Goals
+
+
 whatarea1:
 - image: assets/img/icons/3.png
-  title: Business Analysis
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
-  service_text: Explore Service
-  service_link: '#'
+  title: Green Bond Issuance
+  description: We assist clients in issuing green bonds and accessing capital for clean energy and sustainable projects.
+  service_text: Learn More
+  service_link: '/services/green-bond-issuance/'
 - image: assets/img/icons/4.png
-  title: Financial Planning
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
-  service_text: Explore Service
-  service_link: '#'
+  title: ESG Integration
+  description: We help institutions integrate Environmental, Social, and Governance (ESG) considerations into their investment processes.
+  service_text: Learn More
+  service_link: '/services/esg-integration/'
 - image: assets/img/icons/5.png
-  title: Digital Marketing
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
-  service_text: Explore Service
-  service_link: '#'
+  title: Impact Investing
+  description: We develop and implement impact investing strategies that align with clients' social and environmental goals.
+  service_text: Learn More
+  service_link: '/services/impact-investing/'
 - image: assets/img/icons/6.png
-  title: Business Consulting
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
-  service_text: Explore Service
-  service_link: '#'
+  title: Sustainable Finance Advisory
+  description: We provide comprehensive sustainable finance advisory services, including ESG reporting and disclosure.
+  service_text: Learn More
+  service_link: '/services/sustainable-finance-advisory/'
 - image: assets/img/icons/7.png
-  title: Creative Design
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
-  service_text: Explore Service
-  service_link: '#'
+  title: Climate Risk Management
+  description: We assist institutions in managing and mitigating their exposure to climate risks in their investments and operations.
+  service_text: Learn More
+  service_link: '/services/climate-risk-management/'
 - image: assets/img/icons/8.png
-  title: Email Marketing
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
-  service_text: Explore Service
-  service_link: '#'
+  title: Sustainable Investment Solutions
+  description: We offer customized sustainable investment solutions that align with clients' financial and sustainability objectives.
+  service_text: Learn More
+  service_link: '/services/sustainable-investment-solutions/'
+
+---
+
 
 
 ####################################################################
