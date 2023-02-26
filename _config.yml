@@ -359,7 +359,7 @@ subscribe:
 ######################## whatwedo #######################################
 ##########################################################################
 whatwedo:
-  contact_link: /contact/
+  contact_link: contact.html
   contact_text: Contact Us
   subtitle: Our Services
   title: We Offer Expert Sustainable Finance Consulting for Institutions
