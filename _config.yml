@@ -177,8 +177,8 @@ analytics:
 menus:
   - name: Home
     url: '/'
-  - name: About
-    url: /about/
+#   - name: About
+#     url: /about/
   - name: Pages
     url: '#'
     children: 
@@ -556,43 +556,81 @@ cases:
 - image: assets/img/work/9.jpg
   title: Business / Business Analysis
   subtitle: Business Ananlysis &amp; Strategy
+
+
+
 whatarea1:
 - image: assets/img/icons/3.png
-  title: Business Analysis
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
+  title: Sustainability Assessment
+  description: Our team provides sustainability assessments for financial institutions, helping them understand their current sustainability practices and identify areas for improvement.
   service_text: Explore Service
   service_link: '#'
 - image: assets/img/icons/4.png
-  title: Financial Planning
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
+  title: ESG Integration
+  description: Our team helps financial institutions integrate environmental, social, and governance (ESG) factors into their investment processes and decision-making.
   service_text: Explore Service
   service_link: '#'
 - image: assets/img/icons/5.png
-  title: Digital Marketing
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
+  title: Sustainable Investment Strategies
+  description: Our team helps financial institutions develop and implement sustainable investment strategies that align with their values and contribute to a more sustainable future.
   service_text: Explore Service
   service_link: '#'
 - image: assets/img/icons/6.png
-  title: Business Consulting
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
+  title: Impact Investing
+  description: Our team helps financial institutions design and implement impact investing strategies that generate positive social and environmental outcomes while delivering financial returns.
   service_text: Explore Service
   service_link: '#'
 - image: assets/img/icons/7.png
-  title: Creative Design
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
+  title: Green Bond Issuance
+  description: Our team provides guidance and support for financial institutions looking to issue green bonds, helping them access new sources of capital for sustainable projects.
   service_text: Explore Service
   service_link: '#'
 - image: assets/img/icons/8.png
-  title: Email Marketing
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
+  title: ESG Reporting and Transparency
+  description: Our team helps financial institutions improve their ESG reporting and transparency, enabling them to better communicate their sustainability practices to stakeholders.
   service_text: Explore Service
   service_link: '#'
+
+
+
+
+# whatarea1:
+# - image: assets/img/icons/3.png
+#   title: Business Analysis
+#   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+#     elite.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/4.png
+#   title: Financial Planning
+#   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+#     elite.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/5.png
+#   title: Digital Marketing
+#   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+#     elite.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/6.png
+#   title: Business Consulting
+#   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+#     elite.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/7.png
+#   title: Creative Design
+#   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+#     elite.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/8.png
+#   title: Email Marketing
+#   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
+#     elite.
+#   service_text: Explore Service
+#   service_link: '#'
 
 
 ####################################################################
