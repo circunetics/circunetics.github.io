@@ -278,30 +278,32 @@ worksItems:
     subtitle: 'Business Ananlysis & Strategy'
 
 
+
+
+
 ##########################################################################
 ######################## hero ############################################
 ##########################################################################
 hero1:
-  intro: Business Consulting Agency
-  service_link: service.html
-  service_text: Explore More <i class="icofont-long-arrow-right"></i>
-  subtitle: Lorem ipsum dolor consecteture elite we’re a creative digitalyour business
-    growing we’re a creative digitalyour business growing up.
-  title: Creative &amp; Inteligents People help <br> Growing Business.
+  intro: Sustainable Finance Consulting
+  service_link: services.html
+  service_text: Learn More <i class="icofont-long-arrow-right"></i>
+  subtitle: Our team of experts helps institutions and organizations adopt sustainable finance practices for a better future.
+  title: Empowering Institutions for a Sustainable Future
   title_link: '/work/'
-  title_text: Explore More <i class="icofont-long-arrow-right"></i>
+  title_text: See Our Work <i class="icofont-long-arrow-right"></i>
   video_link: https://www.youtube.com/watch?v=ku6dEtynrRI
-  video_text: <i class="fas fa-play"></i> <span class="how-txt">How we work</span>
+  video_text: <i class="fas fa-play"></i> <span class="how-txt">How We Help</span>
 hero2:
-  intro: We’re Help Growing Your Business.
-  right_img: assets/img/header/hdr-3.png
-  service_link: service.html
-  service_text: Explore More <i class="icofont-long-arrow-right"></i>
-  subtitle: Lorem ipsum dolor consecteture elite we’re a creative digital your business
-    growing up.
+  intro: Helping Organizations Adopt Sustainable Finance
+  right_img: assets/img/header/sustainable-finance.png
+  service_link: services.html
+  service_text: Learn More <i class="icofont-long-arrow-right"></i>
+  subtitle: Our team of experts provides tailored solutions to help organizations integrate sustainable finance practices into their operations.
   video_link: https://www.youtube.com/watch?v=ku6dEtynrRI
-  video_text: <i class="fas fa-play"></i> <span class="how-txt">How we work</span>
-  image: assets/img/work/6.png
+  video_text: <i class="fas fa-play"></i> <span class="how-txt">How We Help</span>
+  image: assets/img/work/sustainable-finance.png
+
 
 
 ##########################################################################
