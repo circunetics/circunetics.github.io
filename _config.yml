@@ -239,23 +239,43 @@ blog:
 ##########################################################################
 ############################ footer ######################################
 ##########################################################################
+
 footer:
-  address: '<li>Address: House 00, Road No : 01, Street address, ABC</li> <li>Phone:
-    <a href="#">+0 123-456-7890</a> </li> <li>Email: <a href="#">info@example.com</a>
+  address: '<li>Address: Lavaterstrasse, Zurich 8002, Switzerland</li> <li>Phone:
+    <a href="#">+41762938590</a> </li> <li>Email: <a href="#">circunetics@gmail.com</a>
     </li>'
   bg_image: assets/img/footer/footer-bg.png
-  copyright: "© 2020 All Right Reserved, Ailng"
-  description: This is Photoshop's version of LoreiIpsum. Aenean sollicitudin,
+  copyright: "© 2023 All Right Reserved, Circunetics Research Ltd."
+  description: Our company specializes in providing sustainable finance consulting services for institutions. We have a team of experts with extensive knowledge and experience in sustainable finance, who work closely with our clients to understand their specific needs and provide tailored solutions. Our services include environmental, social and governance (ESG) integration, impact investing, sustainable finance strategy development, and more. Our goal is to help institutions align their financial practices with sustainable development goals and contribute to a more responsible and sustainable future.
   logo: assets/img/logo/logo-no-background (1).png
 footer2:
-  address: '<li>Address: House 00, Road No : 01, Street address, ABC</li> <li>Phone:
-    <a href="#">+0 123-456-7890</a> </li> <li>Email: <a href="#">info@example.com</a>
+  address: '<li>Address: [insert address here]</li> <li>Phone:
+    <a href="#">[insert phone number here]</a> </li> <li>Email: <a href="#">[insert email here]</a>
     </li>'
-  copyright: "© 2020 All Right Reserved, Ailng"
+  copyright: "© 2023 All Right Reserved, [insert company name here]"
   helpfullink: Helpful Links
-  logo: assets/img/logo/logo-no-background (1).png
+  logo: assets/img/logo/[insert company logo here]
   quicklink: Quick Links
-  description: 'Maboriosam in a nesciung egemagnaeli montant odiy. '
+  description: [insert company description here]
+
+
+# footer:
+#   address: '<li>Address: House 00, Road No : 01, Street address, ABC</li> <li>Phone:
+#     <a href="#">+0 123-456-7890</a> </li> <li>Email: <a href="#">info@example.com</a>
+#     </li>'
+#   bg_image: assets/img/footer/footer-bg.png
+#   copyright: "© 2020 All Right Reserved, Ailng"
+#   description: This is Photoshop's version of LoreiIpsum. Aenean sollicitudin,
+#   logo: assets/img/logo/logo-no-background (1).png
+# footer2:
+#   address: '<li>Address: House 00, Road No : 01, Street address, ABC</li> <li>Phone:
+#     <a href="#">+0 123-456-7890</a> </li> <li>Email: <a href="#">info@example.com</a>
+#     </li>'
+#   copyright: "© 2020 All Right Reserved, Ailng"
+#   helpfullink: Helpful Links
+#   logo: assets/img/logo/logo-no-background (1).png
+#   quicklink: Quick Links
+#   description: 'Maboriosam in a nesciung egemagnaeli montant odiy. '
 
 ########################################################################
 ##########################  worksItems #################################
