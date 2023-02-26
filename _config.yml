@@ -210,24 +210,21 @@ socials:
 ############################ about #######################################
 ##########################################################################
 about:
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, seieiusmoed
-    dui too consecteture elite more.According to ipsum dolor seat ameat consecteture
-    elite.
+  description: Our sustainable finance consulting firm specializes in helping institutions and organizations adopt sustainable finance practices. Our core services include sustainability strategy development, ESG risk and impact assessments, sustainable finance product development, and ongoing support to help our clients achieve their sustainability goals.
   image: assets/img/about/about-1.png
-  subtitle: A helping hand agency <br> for Business
-  title: About Agency
+  subtitle: Your Partner in Sustainable Finance
+  title: About Our Sustainable Finance Consulting Services
+
 about2:
   bg_image: assets/img/about/about-3.png
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, seieiusmoed
-    dui too consecteture elite more.According to ipsum dolor seat ameat consecteture
-    elite.
-  list: <li> <i class="icofont-check-circled"></i> Great Support Team alltime Active
-    </li> <li> <i class="icofont-check-circled"></i> Marketing Research Team </li>
-    <li> <i class="icofont-check-circled"></i> Business Analysis &amp; Marketing </li>
-  subtitle: Agency Features
-  title: A helping hand agency <br> for Business
-  work_link: '/work/'
-  work_text: Get Started <i class="icofont-long-arrow-right"></i>
+  description: Our company stands out from other sustainable finance consulting firms in a number of ways. Our team of experts has deep knowledge and experience in the field of sustainable finance, and we bring a unique perspective to our work. We are committed to providing customized solutions that meet the specific needs of each of our clients, and we have a proven track record of helping organizations achieve their sustainability goals.
+  list: <li> <i class="icofont-check-circled"></i> Expert Team with 20+ Years of Experience 
+    </li> <li> <i class="icofont-check-circled"></i> Customized Solutions for Your Unique Needs </li>
+    <li> <i class="icofont-check-circled"></i> Ongoing Support for Your Success </li>
+  subtitle: What Sets Us Apart
+  title: Sustainable Finance Consulting Services
+  work_link: '/services/'
+  work_text: Learn More <i class="icofont-long-arrow-right"></i>
 
 ##########################################################################
 ############################ blog #######################################
