@@ -441,29 +441,31 @@ reviews:
 ####################################################################
 ######################## feature ###################################
 ####################################################################
+
+
+
 feature_service:
-  title: ' Recently Some Cases Done by Our <br> Agency Team'
-  subtitle: 'Case Study'
+  title: 'Success Stories of Our Sustainable Finance Consulting Services'
+  subtitle: 'Case Studies'
 
 feature_services:
-  - name: Business Analysis
+  - name: Sustainable Finance Strategy Development
     image: '/assets/img/work/7.jpg'
-    description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-      elite.
-    service_text: Explore Service
-    service_link: '#'
-  - name: Financial Planning
+    description: Our team has helped a leading financial institution develop a sustainable finance strategy that aligns with their ESG goals and addresses the challenges of the financial industry.
+    service_text: Read More
+    service_link: '/sustainable-finance-strategy-development/'
+  - name: ESG Integration in Investment Process
     image: '/assets/img/work/8.jpg'
-    description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-      elite.
-    service_text: Explore Service
-    service_link: '#'
-  - name: Business Research
+    description: We have assisted a large investment firm in integrating environmental, social, and governance factors into their investment process to enhance their impact and performance.
+    service_text: Read More
+    service_link: '/esg-integration-investment-process/'
+  - name: Sustainable Finance Product Development
     image: '/assets/img/work/9.jpg'
-    description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-      elite.
-    service_text: Explore Service
-    service_link: '#'
+    description: Our experts have worked with a prominent bank to develop innovative sustainable finance products that meet the needs of their clients and contribute to a more sustainable future.
+    service_text: Read More
+    service_link: '/sustainable-finance-product-development/'
+
+
 
 ####################################################################
 ######################## feedbacks #################################
