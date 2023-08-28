@@ -286,28 +286,32 @@ footer2:
 ##########################  worksItems #################################
 ########################################################################
 
-worksItems:
-  - image: '/assets/img/blog/1.jpg'
-    title: 'Sustainable Finance Strategy'
-    subtitle: 'Develop and Implement a Sustainable Finance Strategy'
-  - image: '/assets/img/blog/2.jpg'
-    title: 'ESG Integration in Investment Process'
-    subtitle: 'Integrate ESG Factors in Investment Process'
-  - image: '/assets/img/blog/3.jpg'
-    title: 'Sustainable Finance Policy Development'
-    subtitle: 'Develop and Implement a Sustainable Finance Policy'
-  - image: '/assets/img/blog/1.jpg'
-    title: 'Impact Investing Advisory'
-    subtitle: 'Provide Advisory Services for Impact Investing'
-  - image: '/assets/img/blog/2.jpg'
-    title: 'Sustainable Finance Training'
-    subtitle: 'Provide Training and Awareness on Sustainable Finance'
-  - image: '/assets/img/blog/3.jpg'
-    title: 'Sustainable Finance Reporting'
-    subtitle: 'Assist with Sustainable Finance Reporting and Disclosures'
+# worksItems:
+#   - image: '/assets/img/blog/1.jpg'
+#     title: 'Sustainable Finance Strategy'
+#     subtitle: 'Develop and Implement a Sustainable Finance Strategy'
+#   - image: '/assets/img/blog/2.jpg'
+#     title: 'ESG Integration in Investment Process'
+#     subtitle: 'Integrate ESG Factors in Investment Process'
+#   - image: '/assets/img/blog/3.jpg'
+#     title: 'Sustainable Finance Policy Development'
+#     subtitle: 'Develop and Implement a Sustainable Finance Policy'
+#   - image: '/assets/img/blog/1.jpg'
+#     title: 'Impact Investing Advisory'
+#     subtitle: 'Provide Advisory Services for Impact Investing'
+#   - image: '/assets/img/blog/2.jpg'
+#     title: 'Sustainable Finance Training'
+#     subtitle: 'Provide Training and Awareness on Sustainable Finance'
+#   - image: '/assets/img/blog/3.jpg'
+#     title: 'Sustainable Finance Reporting'
+#     subtitle: 'Assist with Sustainable Finance Reporting and Disclosures'
 
 
 
+collections:
+  works:
+    output: true
+    permalink: /work/:path/
 
 
 ##########################################################################
