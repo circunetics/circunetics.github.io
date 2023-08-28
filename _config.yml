@@ -449,8 +449,8 @@ wedo:
 ######################## work #######################################
 ##########################################################################
 work:
-  description: Recently done case study by our <br> inteligents team
-  more_link: /work/
+  description: Recently done case study by our <br> team
+  more_link: /work.html
   more_text: Explore More <i class="icofont-long-arrow-right"></i>
   title: Protfolio
 works:
