@@ -1,4 +1,4 @@
-<div class="what-area what-page de-pb">
+<!-- <div class="what-area what-page de-pb">
 	<div class="container">
 		<div class="what-wpr grid-3">
 
@@ -19,4 +19,28 @@
 
 		</div>
 	</div>
+</div> -->
+
+<div class="what-area what-page de-pb">
+    <div class="container">
+        <div class="what-wpr grid-3">
+
+            {%- for service in site.services -%}
+
+            <div class="what-box wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                <div class="what-icon">
+                    <img src="{{ service.image | relative_url }}" alt="thumb">
+                </div>
+                <div class="what-info">
+                    <h5>{{ service.title }}</h5>
+                    <p>{{ service.description }}</p>
+                    <!-- Updated link to point to the individual service page -->
+                    <a href="{{ service.url }}" class="what-btn">Explore Service</a>
+                </div>
+            </div>
+
+            {%- endfor -%}
+
+        </div>
+    </div>
 </div>
