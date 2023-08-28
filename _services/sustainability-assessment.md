@@ -3,8 +3,6 @@ title: Sustainability Assessment
 image: assets/img/icons/3.png
 description: Our team provides sustainability assessments for financial institutions, helping them understand their current sustainability practices and identify areas for improvement.
 ---
-
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -17,7 +15,6 @@ description: Our team provides sustainability assessments for financial institut
             display: flex;
             flex-direction: column;
             min-height: 100vh; /* make sure the body takes at least the full height of the viewport */
-            font-family: Arial, sans-serif;
         }
 
         main {
@@ -26,52 +23,16 @@ description: Our team provides sustainability assessments for financial institut
 
         footer {
             flex-shrink: 0; /* this ensures the footer doesn't shrink if there's a lot of content */
+            background-color: #6a1b9a; /* purple color for the footer */
         }
-
-        /* Header Styles */
-        header {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: url({{ page.image }}) no-repeat center center;
-            background-size: cover;
-            height: 60vh;
-        }
-
-        header div {
-            background-color: rgba(0, 0, 0, 0.7);
-            padding: 20px 40px;
-            border-radius: 10px;
-            text-align: center;
-            max-width: 800px;
-            width: 100%;
-        }
-
-        /* Main Content Styles */
-        main p {
-            line-height: 1.6;
-        }
-
-        /* Footer Styles */
-        footer {
-            background-color: #333;
-            padding: 20px;
-            text-align: center;
-        }
-
-        footer p {
-            color: white;
-            margin: 0;
-        }
-
     </style>
 </head>
 
 <body>
 
     <!-- Header with Image, Title, and Description -->
-    <header>
-        <div>
+    <header style="background: linear-gradient(to bottom, rgba(106, 27, 154, 0.6), rgba(142, 36, 170, 0.6)), url({{ page.image }}) no-repeat center center; background-size: cover; height: 60vh;">
+        <div style="background-color: rgba(0, 0, 0, 0.7); padding: 20px 40px; border-radius: 10px; text-align: center; max-width: 800px; margin: 0 auto;">
             <h1 style="color: white; font-size: 2.5em; margin-bottom: 15px;">{{ page.title }}</h1>
             <p style="color: white; font-size: 1.2em;">{{ page.description }}</p>
         </div>
@@ -88,10 +49,9 @@ description: Our team provides sustainability assessments for financial institut
     </main>
 
     <!-- Optional Footer -->
-    <footer>
-        <p>&copy; 2023 Circunetics Research</p>
+    <footer style="padding: 20px; text-align: center;">
+        <p style="color: white; margin: 0;">&copy; 2023 Circunetics Research</p>
     </footer>
 
 </body>
-
 </html>
