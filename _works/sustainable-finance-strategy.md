@@ -2,6 +2,7 @@
 title: Sustainable Finance Strategy
 image: /assets/img/blog/1.jpg
 subtitle: Develop and Implement a Sustainable Finance Strategy
+layout: page  # or whatever layout you want to use
 
 sections:
   - type: header
@@ -23,15 +24,11 @@ sections:
             <p style="color: white; font-size: 1.5em;">{{ section.subtitle }}</p>
         </div>
     </header>
-
   {% elsif section.type == "main_content" %}
     <!-- Main Content Area -->
     <main style="padding: 40px;">
-        <p>
-            {{ section.content | markdownify }}
-        </p>
+        {{ section.content | markdownify }}
     </main>
-
   {% elsif section.type == "footer" %}
     <!-- Optional Footer -->
     <footer style="background-color: #333; padding: 20px;">
