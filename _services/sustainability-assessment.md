@@ -3,29 +3,31 @@ title: Sustainability Assessment
 image: assets/img/icons/3.png
 description: Our team provides sustainability assessments for financial institutions, helping them understand their current sustainability practices and identify areas for improvement.
 ---
+---
+title: Sustainability Assessment
+image: assets/img/icons/3.png
+description: Our team provides sustainability assessments for financial institutions, helping them understand their current sustainability practices and identify areas for improvement.
+---
 
-<div class="service-area de-padding" style="background-image: url({{ page.image | relative_url }})">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-8 offset-xl-2">
-                <div class="site-title text-center">
-                    <!-- Using page.description for the subtitle -->
-                    <span class="about-sub-title">{{ page.description }}</span>
-                    <h2 data-splitting class="about-title mb-0 wow" data-wow-duration=".1s" data-wow-delay=".4s">{{ page.title }}</h2>
-                </div>
-            </div>
-        </div>
+<!-- Header with Image, Title, and Description -->
+<header style="background: url({{ page.image }}) no-repeat center center; background-size: cover; height: 60vh; display: flex; align-items: center; justify-content: center;">
+    <div style="background-color: rgba(0, 0, 0, 0.7); padding: 20px 40px; border-radius: 10px; text-align: center;">
+        <h1 style="color: white; font-size: 2.5em; margin-bottom: 15px;">{{ page.title }}</h1>
+        <p style="color: white; font-size: 1.2em;">{{ page.description }}</p>
     </div>
-</div>
+</header>
 
-<div class="container">
-    <div class="row">
-        <div class="col-xl-8 offset-xl-2">
-            <p>
-                More detailed content about Sustainability Assessment can go here...
-            </p>
-            <!-- You can add more sections, images, and other content elements here -->
-        </div>
+<!-- Main Content Area -->
+<main style="padding: 50px 20px;">
+    <div style="max-width: 800px; margin: 0 auto;">
+        <p>
+            More detailed content about {{ page.title }} can go here. This section provides ample space to expand upon the service, share case studies, or provide related resources.
+        </p>
+        <!-- You can add more sections, images, and other content elements here -->
     </div>
-</div>
+</main>
 
+<!-- Optional Footer -->
+<footer style="background-color: #333; padding: 20px; text-align: center;">
+    <p style="color: white; margin: 0;">&copy; 2023 Circunetics Research</p>
+</footer>
