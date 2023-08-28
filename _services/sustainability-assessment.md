@@ -3,11 +3,6 @@ title: Sustainability Assessment
 image: assets/img/icons/3.png
 description: Our team provides sustainability assessments for financial institutions, helping them understand their current sustainability practices and identify areas for improvement.
 ---
----
-title: Sustainability Assessment
-image: assets/img/icons/3.png
-description: Our team provides sustainability assessments for financial institutions, helping them understand their current sustainability practices and identify areas for improvement.
----
 
 <!-- Header with Image, Title, and Description -->
 <header style="background: url({{ page.image }}) no-repeat center center; background-size: cover; height: 60vh; display: flex; align-items: center; justify-content: center;">
