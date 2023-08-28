@@ -4,6 +4,7 @@
 ####################################
 ######     Global start     ######
 ####################################
+
 name : 'Circunetics Research'
 title : 'Innovative Research Consulting & Expert Solutions'
 email : 'circunetics@gmail.com'
@@ -16,7 +17,7 @@ logo : assets/img/logo/circunetics-logo-no-background.png
 logo2 : assets/img/logo/circunetics-logo-no-background.png
 
 author:
-name: Circunetics Research
+  name: Circunetics Research
 
 
   
