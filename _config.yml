@@ -9,7 +9,7 @@ name : 'Circunetics Research'
 title : 'Innovative Research Consulting & Expert Solutions'
 email : 'circunetics@gmail.com'
 description: >-
-Circunetics Research offers cutting-edge research consulting and expert solutions to empower businesses and organizations. With a team of dedicated specialists, we drive innovation and ensure success for our clients. Discover the potential of your business with Circunetics Research.
+  Circunetics Research offers cutting-edge research consulting and expert solutions to empower businesses and organizations. With a team of dedicated specialists, we drive innovation and ensure success for our clients. Discover the potential of your business with Circunetics Research.
 baseurl : "" # the subpath of your site, e.g. /blog
 url : "" # the base hostname & protocol for your site, e.g. http://example.com
 locale : "en_US"
