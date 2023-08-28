@@ -23,7 +23,7 @@ description: Our team provides sustainability assessments for financial institut
 
         footer {
             flex-shrink: 0; /* this ensures the footer doesn't shrink if there's a lot of content */
-            background-color: #6a1b9a; /* purple color for the footer */
+            background-color: #7818e7; /* adjusted purple color for the footer */
         }
     </style>
 </head>
@@ -31,7 +31,7 @@ description: Our team provides sustainability assessments for financial institut
 <body>
 
     <!-- Header with Image, Title, and Description -->
-    <header style="background: linear-gradient(to bottom, rgba(106, 27, 154, 0.6), rgba(142, 36, 170, 0.6)), url({{ page.image }}) no-repeat center center; background-size: cover; height: 60vh;">
+    <header style="background: linear-gradient(to bottom, rgba(120, 24, 231, 0.6), rgba(120, 24, 231, 0.6)), url({{ page.image }}) no-repeat center center; background-size: cover; height: 60vh;">
         <div style="background-color: rgba(0, 0, 0, 0.7); padding: 20px 40px; border-radius: 10px; text-align: center; max-width: 800px; margin: 0 auto;">
             <h1 style="color: white; font-size: 2.5em; margin-bottom: 15px;">{{ page.title }}</h1>
             <p style="color: white; font-size: 1.2em;">{{ page.description }}</p>
