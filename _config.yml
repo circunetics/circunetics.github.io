@@ -588,10 +588,10 @@ cases:
 
 
 
-collections:
-  services:
-    output: true
-    permalink: /service/:path/
+# collections:
+#   services:
+#     output: true
+#     permalink: /service/:path/
 
 
 # whatarea1:
