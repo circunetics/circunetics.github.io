@@ -588,37 +588,43 @@ cases:
 
 
 
-whatarea1:
-- image: assets/img/icons/3.png
-  title: Sustainability Assessment
-  description: Our team provides sustainability assessments for financial institutions, helping them understand their current sustainability practices and identify areas for improvement.
-  service_text: Explore Service
-  service_link: '#'
-- image: assets/img/icons/4.png
-  title: ESG Integration
-  description: Our team helps financial institutions integrate environmental, social, and governance (ESG) factors into their investment processes and decision-making.
-  service_text: Explore Service
-  service_link: '#'
-- image: assets/img/icons/5.png
-  title: Sustainable Investment Strategies
-  description: Our team helps financial institutions develop and implement sustainable investment strategies that align with their values and contribute to a more sustainable future.
-  service_text: Explore Service
-  service_link: '#'
-- image: assets/img/icons/6.png
-  title: Impact Investing
-  description: Our team helps financial institutions design and implement impact investing strategies that generate positive social and environmental outcomes while delivering financial returns.
-  service_text: Explore Service
-  service_link: '#'
-- image: assets/img/icons/7.png
-  title: Green Bond Issuance
-  description: Our team provides guidance and support for financial institutions looking to issue green bonds, helping them access new sources of capital for sustainable projects.
-  service_text: Explore Service
-  service_link: '#'
-- image: assets/img/icons/8.png
-  title: ESG Reporting and Transparency
-  description: Our team helps financial institutions improve their ESG reporting and transparency, enabling them to better communicate their sustainability practices to stakeholders.
-  service_text: Explore Service
-  service_link: '#'
+collections:
+  services:
+    output: true
+    permalink: /service/:path/
+
+
+# whatarea1:
+# - image: assets/img/icons/3.png
+#   title: Sustainability Assessment
+#   description: Our team provides sustainability assessments for financial institutions, helping them understand their current sustainability practices and identify areas for improvement.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/4.png
+#   title: ESG Integration
+#   description: Our team helps financial institutions integrate environmental, social, and governance (ESG) factors into their investment processes and decision-making.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/5.png
+#   title: Sustainable Investment Strategies
+#   description: Our team helps financial institutions develop and implement sustainable investment strategies that align with their values and contribute to a more sustainable future.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/6.png
+#   title: Impact Investing
+#   description: Our team helps financial institutions design and implement impact investing strategies that generate positive social and environmental outcomes while delivering financial returns.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/7.png
+#   title: Green Bond Issuance
+#   description: Our team provides guidance and support for financial institutions looking to issue green bonds, helping them access new sources of capital for sustainable projects.
+#   service_text: Explore Service
+#   service_link: '#'
+# - image: assets/img/icons/8.png
+#   title: ESG Reporting and Transparency
+#   description: Our team helps financial institutions improve their ESG reporting and transparency, enabling them to better communicate their sustainability practices to stakeholders.
+#   service_text: Explore Service
+#   service_link: '#'
 
 
 
