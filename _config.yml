@@ -14,7 +14,7 @@ baseurl : "" # the subpath of your site, e.g. /blog
 url : "" # the base hostname & protocol for your site, e.g. http://example.com
 locale : "en_US"
 logo : assets/img/logo/logo-no-background (1).png #assets/img/logo/circunetics-logo-no-background.png
-# logo2 : assets/img/logo/circunetics-logo-no-background.png
+logo2 : assets/img/logo/logo-no-background (1).png  #circunetics-logo-no-background.png
 
 author:
   name: Circunetics Research
