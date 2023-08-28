@@ -9,8 +9,7 @@ sections:
     title: Sustainable Finance Strategy
     subtitle: Develop and Implement a Sustainable Finance Strategy
   - type: main_content
-    content: >
-      Detailed content about the Sustainable Finance Strategy goes here...
+    content: Detailed content about the Sustainable Finance Strategy goes here...
   - type: footer
     content: "© 2023 Circunetics Research"
 ---
@@ -29,7 +28,7 @@ sections:
     <!-- Main Content Area -->
     <main style="padding: 40px;">
         <p>
-            {{ section.content }}
+            {{ section.content | markdownify }}
         </p>
     </main>
 
