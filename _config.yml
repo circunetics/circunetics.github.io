@@ -60,6 +60,13 @@ collections:
   pages:
     output: true
     permalink: /:collection/:slug/
+  works:
+    output: true
+    permalink: /work/:path/
+  services:
+    output: true
+    permalink: /service/:path/
+
 
 # Defaults
 defaults:
@@ -308,10 +315,10 @@ footer2:
 
 
 
-collections:
-  works:
-    output: true
-    permalink: /work/:path/
+# collections:
+#   works:
+#     output: true
+#     permalink: /work/:path/
 
 
 ##########################################################################
