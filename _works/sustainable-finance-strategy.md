@@ -12,7 +12,7 @@ sections:
     content: >
       Detailed content about the Sustainable Finance Strategy goes here...
   - type: footer
-    content: &copy; 2023 Circunetics Research
+    content: "© 2023 Circunetics Research"
 ---
 
 {% for section in page.sections %}
