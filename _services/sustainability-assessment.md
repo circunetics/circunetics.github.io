@@ -5,12 +5,22 @@ description: Our team provides sustainability assessments for financial institut
 ---
 
 <!-- Header with Image, Title, and Description -->
+<!--
 <header style="background: url({{ page.image }}) no-repeat center center; background-size: cover; height: 60vh; display: flex; align-items: center; justify-content: center;">
     <div style="background-color: rgba(0, 0, 0, 0.7); padding: 20px 40px; border-radius: 10px; text-align: center;">
         <h1 style="color: white; font-size: 2.5em; margin-bottom: 15px;">{{ page.title }}</h1>
         <p style="color: white; font-size: 1.2em;">{{ page.description }}</p>
     </div>
 </header>
+-->
+<!-- Header with Image, Title, and Description -->
+<header style="background: url({{ page.image }}) no-repeat center center; background-size: cover; height: 60vh;">
+    <div style="background-color: rgba(0, 0, 0, 0.7); padding: 20px 40px; border-radius: 10px; text-align: center; max-width: 800px; margin: 0 auto;">
+        <h1 style="color: white; font-size: 2.5em; margin-bottom: 15px;">{{ page.title }}</h1>
+        <p style="color: white; font-size: 1.2em;">{{ page.description }}</p>
+    </div>
+</header>
+
 
 <!-- Main Content Area -->
 <main style="padding: 50px 20px;">
