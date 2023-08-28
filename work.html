@@ -20,7 +20,7 @@ image: ''
 		<div class="row">
 			<div class="grid-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
 
-				{%- for work in site.worksItems -%}
+<!-- 				{%- for work in site.worksItems -%}
 				<div class="case-box">
 					<div class="case-pic">
 						<a href="#"><img src="{{ work.image | relative_url }}" alt="thumb"></a>
@@ -34,7 +34,23 @@ image: ''
 						</a>
 					</div>
 				</div>
+				{%- endfor -%} -->
+				{%- for work in site.works -%}
+				<div class="case-box">
+				    <div class="case-pic">
+				        <a href="{{ work.url }}"><img src="{{ work.image }}" alt="thumb"></a>
+				    </div>
+				    <div class="case-info">
+				        <span class="d-block l-h-1 fz-16 mb-20">
+				            <a href="{{ work.url }}">{{ work.title }}</a>
+				        </span>
+				        <a href="{{ work.url }}">
+				            <h5 class="mb-0 fz-20 l-h-1">{{ work.subtitle }}</h5>
+				        </a>
+				    </div>
+				</div>
 				{%- endfor -%}
+
 
 			</div>
 		</div>
